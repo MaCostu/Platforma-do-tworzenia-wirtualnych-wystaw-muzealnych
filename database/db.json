@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "role": "admin",
+      "name": "Administrator",
+      "institutionName": "MuseoNet",
+      "email": "admin@museonet.local",
+      "password": "Admin123!",
+      "status": "Aktywny"
+    },
+    {
+      "id": "u-museum",
+      "role": "museum",
+      "name": "Muzeum Narodowe Demo",
+      "institutionName": "Muzeum Narodowe Demo",
+      "email": "muzeum@demo.pl",
+      "password": "Muzeum123!",
+      "status": "Aktywny"
+    },
+    {
+      "id": "u-visitor",
+      "role": "visitor",
+      "name": "Zwiedzający Demo",
+      "institutionName": "",
+      "email": "zwiedzajacy@demo.pl",
+      "password": "Zwiedzajacy123!",
+      "status": "Aktywny"
+    }
+  ],
+  "exhibitions": [
+    {
+      "id": "ex-001",
+      "title": "Sztuka średniowieczna w przestrzeni muzealnej",
+      "description": "Wystawa prezentuje klimat dawnej sali muzealnej z ikonami, iluminowanymi manuskryptami oraz obiektami sakralnymi. Ekspozycja skupia się na symbolice koloru, złoconych detalach oraz roli sztuki religijnej w kulturze średniowiecza.",
+      "longDescription": "Zwiedzający poznaje przykładową narrację wystawy poświęconej sztuce średniowiecznej. Centralnym motywem jest połączenie obrazu, księgi i obiektu sakralnego. Opisy podkreślają znaczenie światła, złota, ornamentu oraz ręcznej pracy dawnych warsztatów. Taka forma prezentacji dobrze nadaje się do edukacyjnego omówienia eksponatów, bez konieczności fizycznej obecności w muzeum.",
+      "museumEmail": "muzeum@demo.pl",
+      "category": "Sztuka",
+      "layout": "Sala klasyczna",
+      "status": "Opublikowana",
+      "createdAt": "2025-04-08T10:00:00.000Z",
+      "updatedAt": "2025-04-08T10:00:00.000Z",
+      "views": 32,
+      "totalTime": 620,
+      "cover": "assets/sztuka-sredniowieczna.jpg",
+      "education": "Wystawa może zostać wykorzystana jako materiał pomocniczy na lekcjach historii sztuki, religioznawstwa oraz edukacji kulturowej.",
+      "path": "Zwiedzanie rozpoczyna się od panelu z ikoną, następnie przechodzi do manuskryptu, a kończy na opisie obiektu sakralnego umieszczonego w centrum sali.",
+      "exhibits": [
+        {
+          "id": "obj-001",
+          "name": "Rzeźba gotycka",
+          "description": "Przykładowy eksponat sakralny przedstawiający stylizowaną postać o wydłużonych proporcjach i dekoracyjnym układzie szat. Obiekt pokazuje, jak sztuka średniowieczna łączyła funkcję estetyczną z przekazem symbolicznym.",
+          "author": "Nieznany warsztat",
+          "year": "XV w.",
+          "category": "Rzeźba"
+        },
+        {
+          "id": "obj-002",
+          "name": "Manuskrypt iluminowany",
+          "description": "Karta rękopisu ozdobiona ornamentem, inicjałem i barwną miniaturą. Eksponat pokazuje znaczenie ksiąg jako nośników wiedzy, religii i prestiżu społecznego.",
+          "author": "Skryptorium klasztorne",
+          "year": "XIV w.",
+          "category": "Dokument"
+        }
+      ]
+    },
+    {
+      "id": "ex-003",
+      "title": "Rzeźba antyczna i architektura",
+      "description": "Ekspozycja przedstawia salę z marmurowymi popiersiami, posągami oraz detalami architektonicznymi inspirowanymi sztuką antyczną. Główny nacisk położono na proporcje, harmonię i sposób prezentowania postaci ludzkiej.",
+      "longDescription": "Wystawa pokazuje, jak kultura antyczna wpływała na późniejsze formy muzealnej prezentacji sztuki. Jasne rzeźby ustawione na ciemnych postumentach tworzą czytelny kontrast i pozwalają skupić uwagę na sylwetce, geście oraz materiale. Opisy eksponatów tłumaczą rolę popiersi, kolumn i fragmentów architektury w budowaniu wyobrażenia o dawnych cywilizacjach.",
+      "museumEmail": "muzeum@demo.pl",
+      "category": "Rzeźba",
+      "layout": "Sala klasyczna",
+      "status": "Opublikowana",
+      "createdAt": "2025-04-08T10:00:00.000Z",
+      "updatedAt": "2025-04-08T10:00:00.000Z",
+      "views": 27,
+      "totalTime": 455,
+      "cover": "assets/rzezba-antyczna.jpg",
+      "education": "Ekspozycja pomaga wyjaśnić podstawowe pojęcia historii sztuki: kanon, proporcja, kompozycja, kontrapost oraz detal architektoniczny.",
+      "path": "Zwiedzanie prowadzi od popiersi bocznych przez centralną rzeźbę do krótkiego omówienia elementów architektonicznych.",
+      "exhibits": [
+        {
+          "id": "obj-006",
+          "name": "Popiersie marmurowe",
+          "description": "Popiersie stanowi przykład sposobu upamiętniania osób ważnych społecznie. Uwagę zwracają idealizowane rysy twarzy, spokojny wyraz oraz wyraźne opracowanie włosów.",
+          "author": "Warsztat rzymski",
+          "year": "I w.",
+          "category": "Rzeźba"
+        },
+        {
+          "id": "obj-007",
+          "name": "Fragment kolumny",
+          "description": "Element architektoniczny pokazujący znaczenie rytmu i porządku w budowlach antycznych. W opisie zaakcentowano funkcję kolumny jako części konstrukcji i dekoracji.",
+          "author": "Nieznany",
+          "year": "II w.",
+          "category": "Architektura"
+        }
+      ]
+    },
+    {
+      "id": "ex-004",
+      "title": "Historia techniki i wynalazków",
+      "description": "Wystawa edukacyjna prezentuje wybrane obiekty związane z rozwojem techniki, pomiarów, fotografii i komunikacji. Przedmioty pokazano w układzie przypominającym nowoczesną salę ekspozycyjną.",
+      "longDescription": "Ekspozycja została przygotowana jako przystępna opowieść o rozwoju myśli technicznej. Zestawiono w niej mechanizmy, aparaty i przyrządy naukowe, aby pokazać przejście od prostych narzędzi pomiarowych do urządzeń rejestrujących obraz i przekazujących informacje. Dłuższe opisy pomagają zrozumieć, że każdy eksponat jest częścią większego procesu cywilizacyjnego.",
+      "museumEmail": "muzeum@demo.pl",
+      "category": "Technika",
+      "layout": "Sala nowoczesna",
+      "status": "Opublikowana",
+      "createdAt": "2025-04-08T10:00:00.000Z",
+      "updatedAt": "2025-04-08T10:00:00.000Z",
+      "views": 38,
+      "totalTime": 540,
+      "cover": "assets/historia-techniki.jpg",
+      "education": "Materiał nadaje się do omówienia historii wynalazków, rozwoju fotografii, pomiarów czasu oraz technicznych podstaw komunikacji.",
+      "path": "Zwiedzanie rozpoczyna się od instrumentów pomiarowych, przechodzi przez mechanizmy zegarowe i kończy na urządzeniach rejestrujących obraz.",
+      "exhibits": [
+        {
+          "id": "obj-008",
+          "name": "Mechanizm zegarowy",
+          "description": "Eksponat pokazuje zasadę działania układu zębatek, który pozwalał odmierzać czas. Wystawa wyjaśnia, dlaczego precyzyjny pomiar czasu był ważny dla nauki, transportu i życia codziennego.",
+          "author": "Muzeum Techniki",
+          "year": "XIX w.",
+          "category": "Technika"
+        },
+        {
+          "id": "obj-009",
+          "name": "Aparat fotograficzny",
+          "description": "Historyczny aparat pokazuje rozwój metod utrwalania obrazu. Opis zwraca uwagę na obudowę, obiektyw, mieszek oraz rolę fotografii w dokumentowaniu rzeczywistości.",
+          "author": "Nieznany",
+          "year": "XX w.",
+          "category": "Technika"
+        }
+      ]
+    }
+  ],
+  "favorites": {},
+  "logs": [],
+  "failedLogins": {}
+}
